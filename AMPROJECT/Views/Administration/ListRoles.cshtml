@@ -1,0 +1,32 @@
+﻿@model IEnumerable<IdentityRole>
+
+@{
+    ViewData["Title"] = "List Roles";
+}
+
+<h1>All Roles</h1>
+
+<a asp-controller="Administration" asp-action="CreateRole" class="btn btn-primary">Create New Role</a>
+
+@if (Model.Any())
+{
+    foreach (IdentityRole role in Model)
+    {
+        <div class="card">
+            <div class="card-header">
+                Role Id : @role.Id
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@role.Name</h5>
+            </div>
+            <div class="card-footer">
+                <a asp-controller="Administration" asp-action="EditRole" asp-route-id="@role.Id" class="btn btn-primary">Update</a>
+
+                <form method="post" asp-controller="Administration" asp-action="DeleteRole" asp-route-id=@role.Id>
+                    <button type="submit" onclick="return confirm('Are y sure you want to delete role : @role.Name')" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+    }
+}
+

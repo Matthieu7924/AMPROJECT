@@ -49,7 +49,7 @@ namespace AMPROJECT.Controllers
 
 
 
-        [Authorize]
+        [Authorize(Roles = "user,admin")]
         // GET: Films/Create
         public IActionResult Create()
         {

@@ -4,6 +4,7 @@ using AMPROJECT.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AMPROJECT.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221214153054_IdentityL")]
+    partial class IdentityL
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -113,13 +116,13 @@ namespace AMPROJECT.Migrations
                             Id = "B22698B8-42A2-4115-9631-1C2D1E2AC5F7",
                             AccessFailedCount = 0,
                             City = "",
-                            ConcurrencyStamp = "f768961c-ce49-40e0-90cb-b762b9bff428",
+                            ConcurrencyStamp = "f9a0392a-7744-48a1-8ab7-2882267fd85f",
                             Email = "admin@dawan.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@DAWAN.COM",
                             NormalizedUserName = "MASTERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBQAZWazP+JiNAnpOtUSEMG5EYID3NfoLN4ryGctdSGpeKCxcpjWOuXGkPyO23IiQA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPHnxdnPAumFaPcO1PEVZQijjABsIfCbFZSsqt1Ja/X7c4J3PK4tRvZP8/htf4BHJg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "00000000-0000-0000-0000-000000000000",
                             TwoFactorEnabled = false,
@@ -244,6 +247,59 @@ namespace AMPROJECT.Migrations
                     b.HasIndex("CategorieId");
 
                     b.ToTable("Livres");
+                });
+
+            modelBuilder.Entity("AMPROJECT.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("AMPROJECT.Models.OrderItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("FilmId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Montant")
+                        .HasColumnType("float");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Prix")
+                        .HasColumnType("float");
+
+                    b.Property<int>("Quantite")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FilmId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrdersItems");
                 });
 
             modelBuilder.Entity("AMPROJECT.Models.Panier", b =>
@@ -385,14 +441,14 @@ namespace AMPROJECT.Migrations
                         new
                         {
                             Id = "2301D884-221A-4E7D-B509-0113DCC043E1",
-                            ConcurrencyStamp = "bb954b90-3e3e-45a7-b5d8-b2f1d2c9fa80",
+                            ConcurrencyStamp = "f47af5c4-8b7d-4297-a8ef-cf2fbd2c5cec",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "7D9B7113-A8F8-4035-99A7-A20DD400F6A3",
-                            ConcurrencyStamp = "7c636b56-6f21-4b54-91f5-e68e961d0c9c",
+                            ConcurrencyStamp = "76876394-78b7-449c-8995-f9a857a7c282",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -544,6 +600,25 @@ namespace AMPROJECT.Migrations
                     b.Navigation("Categorie");
                 });
 
+            modelBuilder.Entity("AMPROJECT.Models.OrderItem", b =>
+                {
+                    b.HasOne("AMPROJECT.Models.Film", "Film")
+                        .WithMany()
+                        .HasForeignKey("FilmId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AMPROJECT.Models.Order", "Order")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Film");
+
+                    b.Navigation("Order");
+                });
+
             modelBuilder.Entity("ActeurFilm", b =>
                 {
                     b.HasOne("AMPROJECT.Models.Acteur", null)
@@ -668,6 +743,11 @@ namespace AMPROJECT.Migrations
                         .HasForeignKey("UsersId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("AMPROJECT.Models.Order", b =>
+                {
+                    b.Navigation("OrderItems");
                 });
 #pragma warning restore 612, 618
         }

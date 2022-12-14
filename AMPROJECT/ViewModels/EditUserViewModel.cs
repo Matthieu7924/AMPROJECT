@@ -1,6 +1,21 @@
-﻿namespace AMPROJECT.ViewModels
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AMPROJECT.ViewModels
 {
     public class EditUserViewModel
     {
+        [Required]
+        public string Id { get; set; } = String.Empty;
+
+        [Required]
+        public string UserName { get; set; } = String.Empty;
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; } = String.Empty;
+
+        public string City { get; set; } = String.Empty;
+
+        public List<string> Roles { get; set; } = new();
     }
 }

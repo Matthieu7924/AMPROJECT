@@ -39,7 +39,7 @@
     <tbody>
 @foreach (var item in Model) {
 
-            var photoPath = "~/images/" + (item.PhotoPath ?? "noimage.jpg");
+            var photoPath = "~/images/" + (item.PhotoPath ?? "~/images/noimage.jpg");
 
         <tr>
             <td>

@@ -11,9 +11,12 @@ using AMPROJECT.ViewModels;
 using Microsoft.Extensions.Hosting.Internal;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 using System.Net;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AMPROJECT.Controllers
 {
+
+    //[Authorize(Roles ="admin")]
     public class UsersController : Controller
     {
         private readonly MyDbContext _context;

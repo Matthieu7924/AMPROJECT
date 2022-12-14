@@ -21,9 +21,9 @@ namespace AMPROJECT.Data
 
             base.OnModelCreating(modelBuilder);
             //modelBuilder.Entity<Panier>().HasKey(p => new { p.UserId, p.FilmId });
-            //modelBuilder.ApplyConfiguration(new RoleConfiguration());
-            //modelBuilder.ApplyConfiguration(new AdminConfiguration());
-            //modelBuilder.ApplyConfiguration(new UserWithRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            modelBuilder.ApplyConfiguration(new AdminConfiguration());
+            modelBuilder.ApplyConfiguration(new UserWithRoleConfiguration());
 
 
             modelBuilder.Entity<Panier>()
@@ -66,8 +66,7 @@ namespace AMPROJECT.Data
         public DbSet<Panier> Paniers { get; set; }
         public DbSet<User> Users { get; set; }
 
-        public DbSet<Order> Orders { get; set; }
-        public DbSet<OrderItem> OrdersItems { get; set; }
+       
 
 
 

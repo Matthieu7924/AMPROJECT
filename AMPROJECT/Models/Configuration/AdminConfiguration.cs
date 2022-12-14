@@ -13,10 +13,10 @@ namespace AMPROJECT.Models.Configuration
             var admin = new ApplicationUser
             {
                 Id = adminId,
-                UserName = "masteradmin",
+                UserName = "master",
                 NormalizedUserName = "MASTERADMIN",
-                Email = "admin@dawan.com",
-                NormalizedEmail = "ADMIN@DAWAN.COM",
+                Email = "admin@am.com",
+                NormalizedEmail = "ADMIN@AM.COM",
                 EmailConfirmed = true,
                 SecurityStamp = new System.Guid().ToString("D")
             };
