@@ -1,9 +1,12 @@
-﻿namespace AMPROJECT.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace AMPROJECT.Models
 {
     public class Auteur
     {
         public int AuteurId { get; set; }
 
+        [Required(ErrorMessage = "Veuillez saisir un nom")]
         public string? Nom { get; set; }
 
         public string? Prenom { get; set; }

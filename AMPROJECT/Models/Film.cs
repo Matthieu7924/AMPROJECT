@@ -12,5 +12,8 @@ namespace AMPROJECT.Models
         public ICollection<Acteur> Acteurs { get; set; } = null!;
 
         public ICollection<Panier> Paniers { get; set; } = null!;
+
+        public string? PhotoPath { get; set; }
+
     }
 }

@@ -18,5 +18,7 @@ namespace AMPROJECT.Models
 
         public ICollection<User> Users { get; set; }
 
+
+
     }
 }

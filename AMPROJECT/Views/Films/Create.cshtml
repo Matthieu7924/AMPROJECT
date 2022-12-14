@@ -1,8 +1,9 @@
-﻿@model AMPROJECT.Models.Film
+﻿@model AMPROJECT.ViewModels.FilmViewModel
 
 @{
     ViewData["Title"] = "Create";
 }
+
 
 <h1>Create</h1>
 
@@ -22,6 +23,17 @@
                 <input asp-for="Titre" class="form-control" />
                 <span asp-validation-for="Titre" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="Photo" class="control-label"></label>
+                <div class="custom-file">
+                    <input asp-for="Photo" class="custom-file-input" />
+                    <label class="custom-file-label">Choose your photo</label>
+                </div>
+            </div>
+        @*     <div class="form-group">
+            <label for="Image" class="control-label"></label>
+            <input id="Image" class="form-control" type="file" name="file" />
+            </div>*@
             <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
                 <input asp-for="Description" class="form-control" />
@@ -55,4 +67,11 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+           <script>
+            $(document).ready(function()
+            {
+                var fileName= $(this).val().split("\\").pop();
+                $(this).next('.custom-file-label').html(fileName);
+            });
+        </script>
 }

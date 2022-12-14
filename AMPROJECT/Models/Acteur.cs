@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AMPROJECT.Models
 {
@@ -8,6 +9,7 @@ namespace AMPROJECT.Models
 
         public int ActeurId { get; set; }
 
+        [Required(ErrorMessage = "Veuillez saisir un nom")]
         public string? Nom { get; set; }
 
 

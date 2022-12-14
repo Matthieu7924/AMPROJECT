@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Edit";
+    var photoPath = "~/Images/" + (Model.PhotoPath ?? "noimage.jpg");
 }
 
 <h1>Edit</h1>
@@ -10,7 +11,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form method="post" asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
@@ -43,6 +44,20 @@
                 <input asp-for="Quantite" class="form-control" />
                 <span asp-validation-for="Quantite" class="text-danger"></span>
             </div>
+
+    @*     <div class="form-group">
+                <label asp-for="PhotoPath" class="control-label"></label>
+                  <div class="custom-file">
+                    <input asp-for="PhotoPath" class="custom-file-input" />
+                    <label class="custom-file-label">Choose your photo</label>
+                </div>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="PhotoPath" class="control-label"></label>
+                <img class="card-img-top" src="@photoPath" width="150" height="150" asp-append-version="true" />
+            </div>
+
+
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>

@@ -1,11 +1,14 @@
 ﻿using AMPROJECT.Models;
+using AMPROJECT.Models.Configuration;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 
 namespace AMPROJECT.Data
 {
-    public class MyDbContext:DbContext
+    public class MyDbContext:IdentityDbContext<ApplicationUser>
     {
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
         {
@@ -16,9 +19,11 @@ namespace AMPROJECT.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
+            base.OnModelCreating(modelBuilder);
             //modelBuilder.Entity<Panier>().HasKey(p => new { p.UserId, p.FilmId });
-
-
+            //modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            //modelBuilder.ApplyConfiguration(new AdminConfiguration());
+            //modelBuilder.ApplyConfiguration(new UserWithRoleConfiguration());
 
 
             modelBuilder.Entity<Panier>()
@@ -32,15 +37,23 @@ namespace AMPROJECT.Data
            .UsingEntity(join => join.ToTable("FilmsActeurs"));
 
             modelBuilder.Entity<Livre>()
-          .HasMany(left => left.Auteurs)
-          .WithMany(right => right.Livres)
-          .UsingEntity(join => join.ToTable("LivresAuteurs"));
+           .HasMany(left => left.Auteurs)
+           .WithMany(right => right.Livres)
+           .UsingEntity(join => join.ToTable("LivresAuteurs"));
 
             modelBuilder.Entity<User>()
-         .HasMany(left => left.Paniers)
-         .WithMany(right => right.Users)
-         .UsingEntity(join => join.ToTable("UsersPaniers"));
+           .HasMany(left => left.Paniers)
+           .WithMany(right => right.Users)
+           .UsingEntity(join => join.ToTable("UsersPaniers"));
         }
+
+
+    
+
+
+
+
+
 
         public DbSet<Film> Films { get; set; }
         public DbSet<Livre> Livres { get; set; }
@@ -53,9 +66,15 @@ namespace AMPROJECT.Data
         public DbSet<Panier> Paniers { get; set; }
         public DbSet<User> Users { get; set; }
 
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrdersItems { get; set; }
+
+
 
 
 
 
     }
+
+
 }

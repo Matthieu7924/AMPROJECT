@@ -19,6 +19,9 @@
                 @Html.DisplayNameFor(model => model.Titre)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.PhotoPath)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
@@ -35,12 +38,18 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
+
+            var photoPath = "~/images/" + (item.PhotoPath ?? "noimage.jpg");
+
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Duration)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Titre)
+            </td>
+            <td>
+                    <img src="~/Images/@item.PhotoPath" width="50" keigth="50" asp-append-version="true" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
