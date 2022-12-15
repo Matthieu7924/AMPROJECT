@@ -1,14 +1,11 @@
 ﻿using AMPROJECT.Models;
 using AMPROJECT.Models.Configuration;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Reflection.Emit;
 
 namespace AMPROJECT.Data
 {
-    public class MyDbContext:IdentityDbContext<ApplicationUser>
+    public class MyDbContext : IdentityDbContext<ApplicationUser>
     {
         public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
         {
@@ -26,33 +23,23 @@ namespace AMPROJECT.Data
             modelBuilder.ApplyConfiguration(new UserWithRoleConfiguration());
 
 
-            modelBuilder.Entity<Panier>()
-           .HasMany(left => left.FilmPaniers)
-           .WithMany(right => right.Paniers)
-           .UsingEntity(join => join.ToTable("FilmsPaniers"));
+
 
             modelBuilder.Entity<Film>()
            .HasMany(left => left.Acteurs)
            .WithMany(right => right.Films)
            .UsingEntity(join => join.ToTable("FilmsActeurs"));
 
-            modelBuilder.Entity<Livre>()
-           .HasMany(left => left.Auteurs)
-           .WithMany(right => right.Livres)
-           .UsingEntity(join => join.ToTable("LivresAuteurs"));
+            // modelBuilder.Entity<Livre>()
+            //.HasMany(left => left.Auteurs)
+            //.WithMany(right => right.Livres)
+            //.UsingEntity(join => join.ToTable("LivresAuteurs"));
 
-            modelBuilder.Entity<User>()
-           .HasMany(left => left.Paniers)
-           .WithMany(right => right.Users)
-           .UsingEntity(join => join.ToTable("UsersPaniers"));
+            // modelBuilder.Entity<User>()
+            //.HasKey(left => left.Paniers)
+            //.WithKey(right => right.Users)
+            //.UsingEntity(join => join.ToTable("UsersPaniers"));
         }
-
-
-    
-
-
-
-
 
 
         public DbSet<Film> Films { get; set; }
@@ -64,9 +51,9 @@ namespace AMPROJECT.Data
 
         public DbSet<Categorie> Categories { get; set; }
         public DbSet<Panier> Paniers { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> Users1 { get; set; }
 
-       
+
 
 
 

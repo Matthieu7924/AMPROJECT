@@ -12,7 +12,7 @@ namespace AMPROJECT.Models
         [Required(ErrorMessage = "Veuillez saisir un nom")]
         public string? Nom { get; set; }
 
-
-        public ICollection<Film> Films { get; set; }
+        public ICollection<Film>? Films { get; set; }
     }
+
 }

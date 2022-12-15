@@ -13,9 +13,9 @@ namespace AMPROJECT.Controllers
     public class FilmsController : Controller
     {
         private readonly MyDbContext _context;
-        private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment;
+        private readonly Microsoft.AspNetCore.Hosting.IWebHostEnvironment hostingEnvironment;
 
-        public FilmsController(MyDbContext context, Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
+        public FilmsController(MyDbContext context, Microsoft.AspNetCore.Hosting.IWebHostEnvironment hostingEnvironment)
         {
             _context = context;
             this.hostingEnvironment = hostingEnvironment;

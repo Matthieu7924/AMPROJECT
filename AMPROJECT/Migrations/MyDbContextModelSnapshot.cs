@@ -113,17 +113,17 @@ namespace AMPROJECT.Migrations
                             Id = "B22698B8-42A2-4115-9631-1C2D1E2AC5F7",
                             AccessFailedCount = 0,
                             City = "",
-                            ConcurrencyStamp = "f768961c-ce49-40e0-90cb-b762b9bff428",
-                            Email = "admin@dawan.com",
+                            ConcurrencyStamp = "9869a451-fa05-45e1-a9bd-c6788ab94f6f",
+                            Email = "admin@am.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
-                            NormalizedEmail = "ADMIN@DAWAN.COM",
+                            NormalizedEmail = "ADMIN@AM.COM",
                             NormalizedUserName = "MASTERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBQAZWazP+JiNAnpOtUSEMG5EYID3NfoLN4ryGctdSGpeKCxcpjWOuXGkPyO23IiQA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKXf/rMPVvuYvMzDLbHaG9qQQk0T0VNrC8+8EM7cpbdOs6Dz/WrnoMAYkEqm/2wsxg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "00000000-0000-0000-0000-000000000000",
                             TwoFactorEnabled = false,
-                            UserName = "masteradmin"
+                            UserName = "master"
                         });
                 });
 
@@ -191,6 +191,9 @@ namespace AMPROJECT.Migrations
                     b.Property<int>("Duration")
                         .HasColumnType("int");
 
+                    b.Property<int>("PanierId")
+                        .HasColumnType("int");
+
                     b.Property<string>("PhotoPath")
                         .HasColumnType("nvarchar(max)");
 
@@ -207,6 +210,9 @@ namespace AMPROJECT.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategorieId");
+
+                    b.HasIndex("PanierId")
+                        .IsUnique();
 
                     b.ToTable("Films");
                 });
@@ -254,7 +260,12 @@ namespace AMPROJECT.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PanierId"));
 
+                    b.Property<int?>("LivreId")
+                        .HasColumnType("int");
+
                     b.HasKey("PanierId");
+
+                    b.HasIndex("LivreId");
 
                     b.ToTable("Panier");
                 });
@@ -268,31 +279,32 @@ namespace AMPROJECT.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nom")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PanierId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Password")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhotoPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Prenom")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Tel")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.HasIndex("PanierId")
+                        .IsUnique();
+
+                    b.ToTable("Users1");
                 });
 
             modelBuilder.Entity("ActeurFilm", b =>
@@ -322,37 +334,7 @@ namespace AMPROJECT.Migrations
 
                     b.HasIndex("LivresId");
 
-                    b.ToTable("LivresAuteurs", (string)null);
-                });
-
-            modelBuilder.Entity("FilmPanier", b =>
-                {
-                    b.Property<int>("FilmPaniersId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PaniersPanierId")
-                        .HasColumnType("int");
-
-                    b.HasKey("FilmPaniersId", "PaniersPanierId");
-
-                    b.HasIndex("PaniersPanierId");
-
-                    b.ToTable("FilmsPaniers", (string)null);
-                });
-
-            modelBuilder.Entity("LivrePanier", b =>
-                {
-                    b.Property<int>("LivrePaniersId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PaniersPanierId")
-                        .HasColumnType("int");
-
-                    b.HasKey("LivrePaniersId", "PaniersPanierId");
-
-                    b.HasIndex("PaniersPanierId");
-
-                    b.ToTable("LivrePanier");
+                    b.ToTable("AuteurLivre");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -385,14 +367,14 @@ namespace AMPROJECT.Migrations
                         new
                         {
                             Id = "2301D884-221A-4E7D-B509-0113DCC043E1",
-                            ConcurrencyStamp = "bb954b90-3e3e-45a7-b5d8-b2f1d2c9fa80",
+                            ConcurrencyStamp = "fc90bf75-b7f7-4201-88d7-5d53bf1e4de4",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "7D9B7113-A8F8-4035-99A7-A20DD400F6A3",
-                            ConcurrencyStamp = "7c636b56-6f21-4b54-91f5-e68e961d0c9c",
+                            ConcurrencyStamp = "d2a4bd14-f575-472c-af01-62a5c480e52e",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -511,28 +493,21 @@ namespace AMPROJECT.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("PanierUser", b =>
-                {
-                    b.Property<int>("PaniersPanierId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UsersId")
-                        .HasColumnType("int");
-
-                    b.HasKey("PaniersPanierId", "UsersId");
-
-                    b.HasIndex("UsersId");
-
-                    b.ToTable("UsersPaniers", (string)null);
-                });
-
             modelBuilder.Entity("AMPROJECT.Models.Film", b =>
                 {
                     b.HasOne("AMPROJECT.Models.Categorie", "Categorie")
                         .WithMany()
                         .HasForeignKey("CategorieId");
 
+                    b.HasOne("AMPROJECT.Models.Panier", "Paniers")
+                        .WithOne("Films")
+                        .HasForeignKey("AMPROJECT.Models.Film", "PanierId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Categorie");
+
+                    b.Navigation("Paniers");
                 });
 
             modelBuilder.Entity("AMPROJECT.Models.Livre", b =>
@@ -542,6 +517,24 @@ namespace AMPROJECT.Migrations
                         .HasForeignKey("CategorieId");
 
                     b.Navigation("Categorie");
+                });
+
+            modelBuilder.Entity("AMPROJECT.Models.Panier", b =>
+                {
+                    b.HasOne("AMPROJECT.Models.Livre", null)
+                        .WithMany("Paniers")
+                        .HasForeignKey("LivreId");
+                });
+
+            modelBuilder.Entity("AMPROJECT.Models.User", b =>
+                {
+                    b.HasOne("AMPROJECT.Models.Panier", "Paniers")
+                        .WithOne("Users")
+                        .HasForeignKey("AMPROJECT.Models.User", "PanierId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Paniers");
                 });
 
             modelBuilder.Entity("ActeurFilm", b =>
@@ -570,36 +563,6 @@ namespace AMPROJECT.Migrations
                     b.HasOne("AMPROJECT.Models.Livre", null)
                         .WithMany()
                         .HasForeignKey("LivresId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("FilmPanier", b =>
-                {
-                    b.HasOne("AMPROJECT.Models.Film", null)
-                        .WithMany()
-                        .HasForeignKey("FilmPaniersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AMPROJECT.Models.Panier", null)
-                        .WithMany()
-                        .HasForeignKey("PaniersPanierId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("LivrePanier", b =>
-                {
-                    b.HasOne("AMPROJECT.Models.Livre", null)
-                        .WithMany()
-                        .HasForeignKey("LivrePaniersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AMPROJECT.Models.Panier", null)
-                        .WithMany()
-                        .HasForeignKey("PaniersPanierId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -655,19 +618,16 @@ namespace AMPROJECT.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("PanierUser", b =>
+            modelBuilder.Entity("AMPROJECT.Models.Livre", b =>
                 {
-                    b.HasOne("AMPROJECT.Models.Panier", null)
-                        .WithMany()
-                        .HasForeignKey("PaniersPanierId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Paniers");
+                });
 
-                    b.HasOne("AMPROJECT.Models.User", null)
-                        .WithMany()
-                        .HasForeignKey("UsersId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+            modelBuilder.Entity("AMPROJECT.Models.Panier", b =>
+                {
+                    b.Navigation("Films");
+
+                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }

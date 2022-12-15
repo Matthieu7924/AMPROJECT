@@ -20,15 +20,23 @@ namespace AMPROJECT.Controllers
     public class UsersController : Controller
     {
         private readonly MyDbContext _context;
-        private readonly IHostingEnvironment _hostingEnvironment;
+      
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public UsersController(MyDbContext context, IHostingEnvironment hostingEnvironment, IWebHostEnvironment webHostEnvironment)
+        public UsersController(MyDbContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
-            _hostingEnvironment = hostingEnvironment;
             _webHostEnvironment = webHostEnvironment;
         }
+
+
+
+        //public UsersController(MyDbContext context, IWebHostEnvironment hostEnvironment, IWebHostEnvironment webHostEnvironment)
+        //{
+        //    _context = context;
+        //    _webHostEnvironment = hostEnvironment;
+        //    _webHostEnvironment = webHostEnvironment;
+        //}
 
         // GET: Users
         public async Task<IActionResult> Index()
@@ -44,7 +52,7 @@ namespace AMPROJECT.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users
+            var user = await _context.Users1
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
@@ -131,7 +139,7 @@ namespace AMPROJECT.Controllers
                 string? uniqueFileName = null;
                 if (model.Photo != null)
                 {
-                    string uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "Images");
+                    string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "Images");
                     uniqueFileName = Guid.NewGuid().ToString() + "-" + model.Photo.FileName;
                     string filePath = Path.Combine(uploadsFolder, uniqueFileName);
                     model.Photo.CopyTo(new FileStream(filePath, FileMode.Create));
@@ -216,7 +224,7 @@ namespace AMPROJECT.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users
+            var user = await _context.Users1
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (user == null)
             {
@@ -247,7 +255,7 @@ namespace AMPROJECT.Controllers
 
         private bool UserExists(int id)
         {
-          return _context.Users.Any(e => e.Id == id);
+          return _context.Users1.Any(e => e.Id == id);
         }
     }
 }
