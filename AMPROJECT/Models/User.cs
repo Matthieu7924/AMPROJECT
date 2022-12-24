@@ -1,10 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using AMPROJECT.Data;
 
 namespace AMPROJECT.Models
 {
     public class User
     {
+        
         public int Id { get; set; }
 
         

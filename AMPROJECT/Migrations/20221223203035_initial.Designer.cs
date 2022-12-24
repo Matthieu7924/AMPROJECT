@@ -4,6 +4,7 @@ using AMPROJECT.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AMPROJECT.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221223203035_initial")]
+    partial class initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -158,13 +161,13 @@ namespace AMPROJECT.Migrations
                             Id = "B22698B8-42A2-4115-9631-1C2D1E2AC5F7",
                             AccessFailedCount = 0,
                             City = "",
-                            ConcurrencyStamp = "4d2093e1-b338-4d6b-8cbe-ff52202cc203",
+                            ConcurrencyStamp = "05de400e-3bfe-47f0-bc97-436c0ed46a90",
                             Email = "admin@am.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@AM.COM",
                             NormalizedUserName = "MASTERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEE03QARRZ7hqRB4iQQMa03haFQALW1M3GC7hdOJxH1AZzFpP7d6RVy9+5FsNQ0k6kQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKkmeyYsp9In3aHLikClYGVIMPbw8gvyNoVYNnBJUplDGwduZMS5YMzU+th4vBGLHQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "00000000-0000-0000-0000-000000000000",
                             TwoFactorEnabled = false,
@@ -315,27 +318,6 @@ namespace AMPROJECT.Migrations
                     b.ToTable("Panier");
                 });
 
-            modelBuilder.Entity("AMPROJECT.Models.PanierItem", b =>
-                {
-                    b.Property<int>("PanierItemId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PanierItemId"));
-
-                    b.Property<int?>("FilmsId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("Quantites")
-                        .HasColumnType("int");
-
-                    b.HasKey("PanierItemId");
-
-                    b.HasIndex("FilmsId");
-
-                    b.ToTable("PanierItems");
-                });
-
             modelBuilder.Entity("AMPROJECT.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -433,14 +415,14 @@ namespace AMPROJECT.Migrations
                         new
                         {
                             Id = "2301D884-221A-4E7D-B509-0113DCC043E1",
-                            ConcurrencyStamp = "ccce8e7d-61c3-4176-86eb-bf85c4aa416e",
+                            ConcurrencyStamp = "45b76395-e65a-418e-8405-17a01eb23717",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "7D9B7113-A8F8-4035-99A7-A20DD400F6A3",
-                            ConcurrencyStamp = "80a15c6e-049f-40fc-b0fb-cd5d976c3028",
+                            ConcurrencyStamp = "780b4fff-6c5b-4bc2-8e57-263b7d5b95bd",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -609,15 +591,6 @@ namespace AMPROJECT.Migrations
                     b.HasOne("AMPROJECT.Models.Livre", null)
                         .WithMany("Paniers")
                         .HasForeignKey("LivreId");
-                });
-
-            modelBuilder.Entity("AMPROJECT.Models.PanierItem", b =>
-                {
-                    b.HasOne("AMPROJECT.Models.Film", "Films")
-                        .WithMany()
-                        .HasForeignKey("FilmsId");
-
-                    b.Navigation("Films");
                 });
 
             modelBuilder.Entity("AMPROJECT.Models.User", b =>

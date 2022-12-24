@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using AMPROJECT.Data;
 
 namespace AMPROJECT.Models
 {

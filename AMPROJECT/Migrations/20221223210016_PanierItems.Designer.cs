@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AMPROJECT.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20221215111242_initial")]
-    partial class initial
+    [Migration("20221223210016_PanierItems")]
+    partial class PanierItems
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,51 @@ namespace AMPROJECT.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("AMPROJECT.Models.Achat", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Achats");
+                });
+
+            modelBuilder.Entity("AMPROJECT.Models.AchatItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AchatId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FilmId")
+                        .HasColumnType("int");
+
+                    b.Property<double>("Prix")
+                        .HasColumnType("float");
+
+                    b.Property<int>("Qtt")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AchatId");
+
+                    b.HasIndex("FilmId");
+
+                    b.ToTable("AchatItems");
+                });
 
             modelBuilder.Entity("AMPROJECT.Models.Acteur", b =>
                 {
@@ -116,13 +161,13 @@ namespace AMPROJECT.Migrations
                             Id = "B22698B8-42A2-4115-9631-1C2D1E2AC5F7",
                             AccessFailedCount = 0,
                             City = "",
-                            ConcurrencyStamp = "9869a451-fa05-45e1-a9bd-c6788ab94f6f",
+                            ConcurrencyStamp = "4d2093e1-b338-4d6b-8cbe-ff52202cc203",
                             Email = "admin@am.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@AM.COM",
                             NormalizedUserName = "MASTERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKXf/rMPVvuYvMzDLbHaG9qQQk0T0VNrC8+8EM7cpbdOs6Dz/WrnoMAYkEqm/2wsxg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEE03QARRZ7hqRB4iQQMa03haFQALW1M3GC7hdOJxH1AZzFpP7d6RVy9+5FsNQ0k6kQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "00000000-0000-0000-0000-000000000000",
                             TwoFactorEnabled = false,
@@ -273,6 +318,27 @@ namespace AMPROJECT.Migrations
                     b.ToTable("Panier");
                 });
 
+            modelBuilder.Entity("AMPROJECT.Models.PanierItem", b =>
+                {
+                    b.Property<int>("PanierItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PanierItemId"));
+
+                    b.Property<int?>("FilmsId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Quantites")
+                        .HasColumnType("int");
+
+                    b.HasKey("PanierItemId");
+
+                    b.HasIndex("FilmsId");
+
+                    b.ToTable("PanierItems");
+                });
+
             modelBuilder.Entity("AMPROJECT.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -370,14 +436,14 @@ namespace AMPROJECT.Migrations
                         new
                         {
                             Id = "2301D884-221A-4E7D-B509-0113DCC043E1",
-                            ConcurrencyStamp = "fc90bf75-b7f7-4201-88d7-5d53bf1e4de4",
+                            ConcurrencyStamp = "ccce8e7d-61c3-4176-86eb-bf85c4aa416e",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "7D9B7113-A8F8-4035-99A7-A20DD400F6A3",
-                            ConcurrencyStamp = "d2a4bd14-f575-472c-af01-62a5c480e52e",
+                            ConcurrencyStamp = "80a15c6e-049f-40fc-b0fb-cd5d976c3028",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -496,6 +562,25 @@ namespace AMPROJECT.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("AMPROJECT.Models.AchatItem", b =>
+                {
+                    b.HasOne("AMPROJECT.Models.Achat", "Achat")
+                        .WithMany("AchatItem")
+                        .HasForeignKey("AchatId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AMPROJECT.Models.Film", "Film")
+                        .WithMany()
+                        .HasForeignKey("FilmId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Achat");
+
+                    b.Navigation("Film");
+                });
+
             modelBuilder.Entity("AMPROJECT.Models.Film", b =>
                 {
                     b.HasOne("AMPROJECT.Models.Categorie", "Categorie")
@@ -527,6 +612,15 @@ namespace AMPROJECT.Migrations
                     b.HasOne("AMPROJECT.Models.Livre", null)
                         .WithMany("Paniers")
                         .HasForeignKey("LivreId");
+                });
+
+            modelBuilder.Entity("AMPROJECT.Models.PanierItem", b =>
+                {
+                    b.HasOne("AMPROJECT.Models.Film", "Films")
+                        .WithMany()
+                        .HasForeignKey("FilmsId");
+
+                    b.Navigation("Films");
                 });
 
             modelBuilder.Entity("AMPROJECT.Models.User", b =>
@@ -619,6 +713,11 @@ namespace AMPROJECT.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("AMPROJECT.Models.Achat", b =>
+                {
+                    b.Navigation("AchatItem");
                 });
 
             modelBuilder.Entity("AMPROJECT.Models.Livre", b =>

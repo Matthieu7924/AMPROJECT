@@ -1,4 +1,4 @@
-﻿using AMPROJECT.Models;
+﻿using AMPROJECT.Data;
 
 namespace AMPROJECT.ViewModels
 {
@@ -6,14 +6,14 @@ namespace AMPROJECT.ViewModels
     {
 
 
-        public string Nom { get; set; }
-        public string Prenom { get; set; }
+        public string? Nom { get; set; }
+        public string? Prenom { get; set; }
 
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string Tel { get; set; }
+        public string? Email { get; set; }
+        public string? Password { get; set; }
+        public string? Tel { get; set; }
 
-        public ICollection<Panier> Paniers { get; set; }
+        public ICollection<Panier>? Paniers { get; set; }
 
         public IFormFile? Photo { get; set; }
     }

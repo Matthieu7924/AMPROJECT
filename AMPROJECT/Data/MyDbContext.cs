@@ -53,7 +53,9 @@ namespace AMPROJECT.Data
         public DbSet<Panier> Paniers { get; set; }
         public DbSet<User> Users1 { get; set; }
 
-
+        public DbSet<Achat> Achats { get; set; }
+        public DbSet<AchatItem> AchatItems { get; set; }
+        public DbSet<PanierItem> PanierItems { get; set; }
 
 
 

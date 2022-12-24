@@ -14,6 +14,19 @@ namespace AMPROJECT.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Achats",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Achats", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Acteurs",
                 columns: table => new
                 {
@@ -324,6 +337,34 @@ namespace AMPROJECT.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "AchatItems",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Qtt = table.Column<int>(type: "int", nullable: false),
+                    Prix = table.Column<double>(type: "float", nullable: false),
+                    FilmId = table.Column<int>(type: "int", nullable: false),
+                    AchatId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AchatItems", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_AchatItems_Achats_AchatId",
+                        column: x => x.AchatId,
+                        principalTable: "Achats",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_AchatItems_Films_FilmId",
+                        column: x => x.FilmId,
+                        principalTable: "Films",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "FilmsActeurs",
                 columns: table => new
                 {
@@ -352,19 +393,29 @@ namespace AMPROJECT.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "2301D884-221A-4E7D-B509-0113DCC043E1", "fc90bf75-b7f7-4201-88d7-5d53bf1e4de4", "admin", "ADMIN" },
-                    { "7D9B7113-A8F8-4035-99A7-A20DD400F6A3", "d2a4bd14-f575-472c-af01-62a5c480e52e", "user", "USER" }
+                    { "2301D884-221A-4E7D-B509-0113DCC043E1", "45b76395-e65a-418e-8405-17a01eb23717", "admin", "ADMIN" },
+                    { "7D9B7113-A8F8-4035-99A7-A20DD400F6A3", "780b4fff-6c5b-4bc2-8e57-263b7d5b95bd", "user", "USER" }
                 });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "City", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "B22698B8-42A2-4115-9631-1C2D1E2AC5F7", 0, "", "9869a451-fa05-45e1-a9bd-c6788ab94f6f", "admin@am.com", true, false, null, "ADMIN@AM.COM", "MASTERADMIN", "AQAAAAEAACcQAAAAEKXf/rMPVvuYvMzDLbHaG9qQQk0T0VNrC8+8EM7cpbdOs6Dz/WrnoMAYkEqm/2wsxg==", null, false, "00000000-0000-0000-0000-000000000000", false, "master" });
+                values: new object[] { "B22698B8-42A2-4115-9631-1C2D1E2AC5F7", 0, "", "05de400e-3bfe-47f0-bc97-436c0ed46a90", "admin@am.com", true, false, null, "ADMIN@AM.COM", "MASTERADMIN", "AQAAAAEAACcQAAAAEKkmeyYsp9In3aHLikClYGVIMPbw8gvyNoVYNnBJUplDGwduZMS5YMzU+th4vBGLHQ==", null, false, "00000000-0000-0000-0000-000000000000", false, "master" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[] { "2301D884-221A-4E7D-B509-0113DCC043E1", "B22698B8-42A2-4115-9631-1C2D1E2AC5F7" });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AchatItems_AchatId",
+                table: "AchatItems",
+                column: "AchatId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AchatItems_FilmId",
+                table: "AchatItems",
+                column: "FilmId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -447,6 +498,9 @@ namespace AMPROJECT.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "AchatItems");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
             migrationBuilder.DropTable(
@@ -469,6 +523,9 @@ namespace AMPROJECT.Migrations
 
             migrationBuilder.DropTable(
                 name: "Users1");
+
+            migrationBuilder.DropTable(
+                name: "Achats");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

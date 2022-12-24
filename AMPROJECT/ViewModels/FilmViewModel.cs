@@ -1,4 +1,5 @@
-﻿using AMPROJECT.Models;
+﻿using AMPROJECT.Data;
+using AMPROJECT.Models;
 
 namespace AMPROJECT.ViewModels
 {
@@ -12,7 +13,7 @@ namespace AMPROJECT.ViewModels
 
             public ICollection<Panier> Paniers { get; set; } = null!;
 
-            public IFormFile Photo { get; set; }
+            public IFormFile? Photo { get; set; }
         
     }
 }

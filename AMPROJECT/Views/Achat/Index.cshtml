@@ -1,0 +1,74 @@
+﻿
+@using AMPROJECT.Data
+@using AMPROJECT.ViewModels;
+@model PanierViewModel
+@{
+    ViewData["Title"] = "Resume du Panier";
+}
+<div class="row">
+
+    <div class="col-md-8 offset-2">
+       <div class="text-center">
+            <h2>Votre Panier</h2>
+       </div>
+
+       <table class="table">
+      <thead>
+          <tr>
+              <th>Montant</th>
+               <th>Film</th>
+               <th>Prix</th>
+               <th>Total</th>
+               <th></th>
+
+          </tr>
+      </thead>
+      <tbody>
+                @foreach (var item in Model.Panier.PaniersItems)
+                {
+                     <tr>
+                    <td class="align-middle">@item.Quantites</td>
+                    <td class="align-middle">@item.Films.Titre</td>
+                    <td class="align-middle">@item.Films.Prix.ToString("c")</td>
+                    <td class="align-middle">@item.Films.Quantite</td>
+                    <td class="align-middle"> @((item.Quantites * item.Films.Prix))</td>
+                           <td class="align-middle">
+                               <a class="text-danger asp-controller="Achat" asp-action="SuprimerItemDuPanier" asp-route-id="@item.Films.Id"><i class="bg-info bi-cart-dash"></i></a>
+                           </td>
+                            <td class="align-middle">
+                               <a class="text-success" asp-controller="Achat" asp-action="AjouterItemDuPanier" asp-route-id="@item.Films.Id"><i class="bg-info bi-cart-plus"></i></a>
+                           </td>
+              </tr>
+
+                }
+        </tbody>
+        
+      <tfoot>
+          <tr>
+            <td colspan="2"></td>
+            <td"><b>Total:</b></td>
+                    <td>
+                    @Model.PanierTotal.ToString("c")
+                    </td>
+            <td></td>
+        </tr>
+      </tfoot>
+
+    </table>
+    <div class="text-center">
+        <div class="btn-group">
+            <a class="btn btn-outline-success" asp-controller="Films" asp-action="Index">
+                Ajouter encore
+            </a>
+        </div>
+    </div>
+
+    
+
+
+    </div>
+
+</div>
+
+
+   
