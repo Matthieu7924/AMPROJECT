@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AMPROJECT.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20221223210016_PanierItems")]
-    partial class PanierItems
+    [Migration("20221227135640_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,21 @@ namespace AMPROJECT.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("AMPROJECT.Data.Panier", b =>
+                {
+                    b.Property<string>("PanierId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int?>("LivreId")
+                        .HasColumnType("int");
+
+                    b.HasKey("PanierId");
+
+                    b.HasIndex("LivreId");
+
+                    b.ToTable("Panier");
+                });
 
             modelBuilder.Entity("AMPROJECT.Models.Achat", b =>
                 {
@@ -161,13 +176,13 @@ namespace AMPROJECT.Migrations
                             Id = "B22698B8-42A2-4115-9631-1C2D1E2AC5F7",
                             AccessFailedCount = 0,
                             City = "",
-                            ConcurrencyStamp = "4d2093e1-b338-4d6b-8cbe-ff52202cc203",
+                            ConcurrencyStamp = "8ba6862f-2463-4640-b157-959a17ed4d41",
                             Email = "admin@am.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@AM.COM",
                             NormalizedUserName = "MASTERADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEE03QARRZ7hqRB4iQQMa03haFQALW1M3GC7hdOJxH1AZzFpP7d6RVy9+5FsNQ0k6kQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIXxp2ow203tG3OgHJGDT5CAVxOS2uVoBxW2kOwd1oHQI3/Uowr3xcenfiO9OefDvg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "00000000-0000-0000-0000-000000000000",
                             TwoFactorEnabled = false,
@@ -239,7 +254,7 @@ namespace AMPROJECT.Migrations
                     b.Property<int>("Duration")
                         .HasColumnType("int");
 
-                    b.Property<int>("PanierId")
+                    b.Property<int>("PanierItemId")
                         .HasColumnType("int");
 
                     b.Property<string>("PhotoPath")
@@ -259,7 +274,7 @@ namespace AMPROJECT.Migrations
 
                     b.HasIndex("CategorieId");
 
-                    b.HasIndex("PanierId")
+                    b.HasIndex("PanierItemId")
                         .IsUnique();
 
                     b.ToTable("Films");
@@ -300,41 +315,26 @@ namespace AMPROJECT.Migrations
                     b.ToTable("Livres");
                 });
 
-            modelBuilder.Entity("AMPROJECT.Models.Panier", b =>
-                {
-                    b.Property<int>("PanierId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PanierId"));
-
-                    b.Property<int?>("LivreId")
-                        .HasColumnType("int");
-
-                    b.HasKey("PanierId");
-
-                    b.HasIndex("LivreId");
-
-                    b.ToTable("Panier");
-                });
-
             modelBuilder.Entity("AMPROJECT.Models.PanierItem", b =>
                 {
-                    b.Property<int>("PanierItemId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PanierItemId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("FilmsId")
-                        .HasColumnType("int");
+                    b.Property<string>("PanierId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("PanierItemId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Quantites")
                         .HasColumnType("int");
 
-                    b.HasKey("PanierItemId");
+                    b.HasKey("Id");
 
-                    b.HasIndex("FilmsId");
+                    b.HasIndex("PanierId");
 
                     b.ToTable("PanierItems");
                 });
@@ -353,8 +353,8 @@ namespace AMPROJECT.Migrations
                     b.Property<string>("Nom")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PanierId")
-                        .HasColumnType("int");
+                    b.Property<string>("PanierId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
@@ -370,8 +370,7 @@ namespace AMPROJECT.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PanierId")
-                        .IsUnique();
+                    b.HasIndex("PanierId");
 
                     b.ToTable("Users1");
                 });
@@ -436,14 +435,14 @@ namespace AMPROJECT.Migrations
                         new
                         {
                             Id = "2301D884-221A-4E7D-B509-0113DCC043E1",
-                            ConcurrencyStamp = "ccce8e7d-61c3-4176-86eb-bf85c4aa416e",
+                            ConcurrencyStamp = "411c3c9c-f62d-4558-a940-7de9059ce575",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "7D9B7113-A8F8-4035-99A7-A20DD400F6A3",
-                            ConcurrencyStamp = "80a15c6e-049f-40fc-b0fb-cd5d976c3028",
+                            ConcurrencyStamp = "eb374b66-edb4-4b8d-9b6a-9693b0b3307c",
                             Name = "user",
                             NormalizedName = "USER"
                         });
@@ -562,6 +561,13 @@ namespace AMPROJECT.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("AMPROJECT.Data.Panier", b =>
+                {
+                    b.HasOne("AMPROJECT.Models.Livre", null)
+                        .WithMany("Paniers")
+                        .HasForeignKey("LivreId");
+                });
+
             modelBuilder.Entity("AMPROJECT.Models.AchatItem", b =>
                 {
                     b.HasOne("AMPROJECT.Models.Achat", "Achat")
@@ -587,15 +593,15 @@ namespace AMPROJECT.Migrations
                         .WithMany()
                         .HasForeignKey("CategorieId");
 
-                    b.HasOne("AMPROJECT.Models.Panier", "Paniers")
+                    b.HasOne("AMPROJECT.Models.PanierItem", "PanierItem")
                         .WithOne("Films")
-                        .HasForeignKey("AMPROJECT.Models.Film", "PanierId")
+                        .HasForeignKey("AMPROJECT.Models.Film", "PanierItemId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Categorie");
 
-                    b.Navigation("Paniers");
+                    b.Navigation("PanierItem");
                 });
 
             modelBuilder.Entity("AMPROJECT.Models.Livre", b =>
@@ -607,29 +613,18 @@ namespace AMPROJECT.Migrations
                     b.Navigation("Categorie");
                 });
 
-            modelBuilder.Entity("AMPROJECT.Models.Panier", b =>
-                {
-                    b.HasOne("AMPROJECT.Models.Livre", null)
-                        .WithMany("Paniers")
-                        .HasForeignKey("LivreId");
-                });
-
             modelBuilder.Entity("AMPROJECT.Models.PanierItem", b =>
                 {
-                    b.HasOne("AMPROJECT.Models.Film", "Films")
-                        .WithMany()
-                        .HasForeignKey("FilmsId");
-
-                    b.Navigation("Films");
+                    b.HasOne("AMPROJECT.Data.Panier", null)
+                        .WithMany("PaniersItems")
+                        .HasForeignKey("PanierId");
                 });
 
             modelBuilder.Entity("AMPROJECT.Models.User", b =>
                 {
-                    b.HasOne("AMPROJECT.Models.Panier", "Paniers")
-                        .WithOne("Users")
-                        .HasForeignKey("AMPROJECT.Models.User", "PanierId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("AMPROJECT.Data.Panier", "Paniers")
+                        .WithMany()
+                        .HasForeignKey("PanierId");
 
                     b.Navigation("Paniers");
                 });
@@ -715,6 +710,11 @@ namespace AMPROJECT.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("AMPROJECT.Data.Panier", b =>
+                {
+                    b.Navigation("PaniersItems");
+                });
+
             modelBuilder.Entity("AMPROJECT.Models.Achat", b =>
                 {
                     b.Navigation("AchatItem");
@@ -725,11 +725,9 @@ namespace AMPROJECT.Migrations
                     b.Navigation("Paniers");
                 });
 
-            modelBuilder.Entity("AMPROJECT.Models.Panier", b =>
+            modelBuilder.Entity("AMPROJECT.Models.PanierItem", b =>
                 {
                     b.Navigation("Films");
-
-                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }

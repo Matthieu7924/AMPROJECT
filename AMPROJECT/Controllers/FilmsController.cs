@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using AMPROJECT.Data;
+﻿using AMPROJECT.Data;
 using AMPROJECT.Models;
 //using AMPROJECT.Services;
-using Microsoft.AspNetCore.Hosting;
 using AMPROJECT.ViewModels;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AMPROJECT.Controllers
 {
@@ -49,21 +48,21 @@ namespace AMPROJECT.Controllers
 
 
 
-        [Authorize(Roles = "user,admin")]
+        //[Authorize(Roles = "user,admin")]
         // GET: Films/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(FilmCreateViewModel model)
         {
-            //if (ModelState.IsValid)
-            //{
-            string uniqueFileName = null;
+        //    if (ModelState.IsValid)
+        //    {
+            string? uniqueFileName = null;
             if (model.Photo != null)
             {
                 string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "images");

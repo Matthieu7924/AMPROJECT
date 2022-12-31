@@ -8,11 +8,11 @@ namespace AMPROJECT.Models
         public int Id { get; set; }
         public int Qtt { get; set; }
 
-        public double Prix { get; set; }    
+       // public double Prix { get; set; }    
 
         public int FilmId { get; set; }
         public Film? Film { get; set; }
-
+        
         public int AchatId { get; set; }
         public Achat? Achat { get; set; }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\AMPROJECT.csproj": {}
+    "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\AMPROJECT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\AMPROJECT.csproj": {
+    "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\AMPROJECT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\AMPROJECT.csproj",
+        "projectUniqueName": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\AMPROJECT.csproj",
         "projectName": "AMPROJECT",
-        "projectPath": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\AMPROJECT.csproj",
+        "projectPath": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\AMPROJECT.csproj",
         "packagesPath": "C:\\Users\\malun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\obj\\",
+        "outputPath": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\malun\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -22,13 +22,13 @@ namespace AMPROJECT.Data
         {
             ISession session = (ISession)services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
             var context = services.GetService<MyDbContext>();
-            string? panierId = session.GetString("PanierId")?? Guid.NewGuid().ToString();
+            string? panierId = session.GetString("PanierId") ?? Guid.NewGuid().ToString();
 
             return new Panier(context) { PanierId = panierId };
         }
         public void AjouterAuPanier(Film film)
         {
-            var panierItem = _context.PanierItems.FirstOrDefault(n => n.Films.Id == film.Id &&  n.PanierItemId == PanierId);
+            var panierItem = _context.PanierItems.FirstOrDefault(n => n.Films.Id == film.Id &&  (n.PanierItemId == PanierId));
             if (panierItem == null)
             {
                 panierItem = new PanierItem()

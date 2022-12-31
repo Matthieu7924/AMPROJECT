@@ -12,6 +12,6 @@ namespace AMPROJECT.Models
         public Categorie? Categorie { get; set; }
         public ICollection<Auteur> Auteurs { get; set; } = null!;
 
-        public ICollection<Panier> Paniers { get; set; } = null!;
+       // public ICollection<Panier> Paniers { get; set; } = null!;
     }
 }

@@ -265,8 +265,7 @@ namespace AMPROJECT.Migrations
                 name: "Panier",
                 columns: table => new
                 {
-                    PanierId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    PanierId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     LivreId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -280,6 +279,50 @@ namespace AMPROJECT.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "PanierItems",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Quantites = table.Column<int>(type: "int", nullable: true),
+                    PanierItemId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PanierId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PanierItems", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_PanierItems_Panier_PanierId",
+                        column: x => x.PanierId,
+                        principalTable: "Panier",
+                        principalColumn: "PanierId");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Users1",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nom = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Prenom = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Tel = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PanierId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    PhotoPath = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users1", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Users1_Panier_PanierId",
+                        column: x => x.PanierId,
+                        principalTable: "Panier",
+                        principalColumn: "PanierId");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Films",
                 columns: table => new
                 {
@@ -287,7 +330,7 @@ namespace AMPROJECT.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Duration = table.Column<int>(type: "int", nullable: false),
                     CategorieId = table.Column<int>(type: "int", nullable: true),
-                    PanierId = table.Column<int>(type: "int", nullable: false),
+                    PanierItemId = table.Column<int>(type: "int", nullable: false),
                     PhotoPath = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Titre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -304,35 +347,10 @@ namespace AMPROJECT.Migrations
                         principalTable: "Categories",
                         principalColumn: "CategorieId");
                     table.ForeignKey(
-                        name: "FK_Films_Panier_PanierId",
-                        column: x => x.PanierId,
-                        principalTable: "Panier",
-                        principalColumn: "PanierId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Users1",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nom = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Prenom = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Tel = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    PanierId = table.Column<int>(type: "int", nullable: false),
-                    PhotoPath = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Users1", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Users1_Panier_PanierId",
-                        column: x => x.PanierId,
-                        principalTable: "Panier",
-                        principalColumn: "PanierId",
+                        name: "FK_Films_PanierItems_PanierItemId",
+                        column: x => x.PanierItemId,
+                        principalTable: "PanierItems",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -393,14 +411,14 @@ namespace AMPROJECT.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "2301D884-221A-4E7D-B509-0113DCC043E1", "45b76395-e65a-418e-8405-17a01eb23717", "admin", "ADMIN" },
-                    { "7D9B7113-A8F8-4035-99A7-A20DD400F6A3", "780b4fff-6c5b-4bc2-8e57-263b7d5b95bd", "user", "USER" }
+                    { "2301D884-221A-4E7D-B509-0113DCC043E1", "411c3c9c-f62d-4558-a940-7de9059ce575", "admin", "ADMIN" },
+                    { "7D9B7113-A8F8-4035-99A7-A20DD400F6A3", "eb374b66-edb4-4b8d-9b6a-9693b0b3307c", "user", "USER" }
                 });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "City", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "B22698B8-42A2-4115-9631-1C2D1E2AC5F7", 0, "", "05de400e-3bfe-47f0-bc97-436c0ed46a90", "admin@am.com", true, false, null, "ADMIN@AM.COM", "MASTERADMIN", "AQAAAAEAACcQAAAAEKkmeyYsp9In3aHLikClYGVIMPbw8gvyNoVYNnBJUplDGwduZMS5YMzU+th4vBGLHQ==", null, false, "00000000-0000-0000-0000-000000000000", false, "master" });
+                values: new object[] { "B22698B8-42A2-4115-9631-1C2D1E2AC5F7", 0, "", "8ba6862f-2463-4640-b157-959a17ed4d41", "admin@am.com", true, false, null, "ADMIN@AM.COM", "MASTERADMIN", "AQAAAAEAACcQAAAAEIXxp2ow203tG3OgHJGDT5CAVxOS2uVoBxW2kOwd1oHQI3/Uowr3xcenfiO9OefDvg==", null, false, "00000000-0000-0000-0000-000000000000", false, "master" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
@@ -467,9 +485,9 @@ namespace AMPROJECT.Migrations
                 column: "CategorieId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Films_PanierId",
+                name: "IX_Films_PanierItemId",
                 table: "Films",
-                column: "PanierId",
+                column: "PanierItemId",
                 unique: true);
 
             migrationBuilder.CreateIndex(
@@ -488,10 +506,14 @@ namespace AMPROJECT.Migrations
                 column: "LivreId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_PanierItems_PanierId",
+                table: "PanierItems",
+                column: "PanierId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Users1_PanierId",
                 table: "Users1",
-                column: "PanierId",
-                unique: true);
+                column: "PanierId");
         }
 
         /// <inheritdoc />
@@ -541,6 +563,9 @@ namespace AMPROJECT.Migrations
 
             migrationBuilder.DropTable(
                 name: "Films");
+
+            migrationBuilder.DropTable(
+                name: "PanierItems");
 
             migrationBuilder.DropTable(
                 name: "Panier");

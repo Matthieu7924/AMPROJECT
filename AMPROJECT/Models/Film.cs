@@ -1,5 +1,6 @@
-﻿using AMPROJECT.Data;
-using MessagePack;
+﻿
+
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AMPROJECT.Models
@@ -9,15 +10,17 @@ namespace AMPROJECT.Models
     {
         //[Key]
         public int Id { get; set; }
-        public string Titre { get; set; }
+        // public string? Titre { get; set; }
         public int Duration { get; set; }
 
         public Categorie? Categorie { get; set; }
         public ICollection<Acteur> Acteurs { get; set; } = null!;
-        public int PanierId { get; set; }
+        //public string? PanierId { get; set; }
         //[ForeignKey(nameof(PanierId))]
         //public Panier? Paniers { get; set; } 
-
+        //public int PanierItemId { get; set; }
+        //[ForeignKey(nameof(PanierItem))]
+        public string? PanierItemId { get; set; }
         public string? PhotoPath { get; set; }
 
     }

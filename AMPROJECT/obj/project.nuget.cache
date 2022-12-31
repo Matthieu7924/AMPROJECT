@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qXY5IQSwVVs6We/mQIOmPY6nYd7eX8eL4kD0oORN73KguxmvQLwk4x50OZKT6iWP/QePfdsC21TyrOVNkW1jSQ==",
+  "dgSpecHash": "diKqM5GiC1pdaS/lc31mwYlKig/T+Igqw++i7bm+3R0DK3LmyygdDsBtxySAcgMMu5m6CVewrIi32qsFWib4nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\AMPROJECT.csproj",
+  "projectFilePath": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\AMPROJECT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malun\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\malun\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

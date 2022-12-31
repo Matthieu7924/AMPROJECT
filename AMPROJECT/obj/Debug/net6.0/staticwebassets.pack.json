@@ -1,307 +1,391 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AMPROJECT.bundle.scp.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AMPROJECT.bundle.scp.css",
       "PackagePath": "staticwebassets\\AMPROJECT.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\038f86ac-d68d-4e1e-94c4-5b7f12b00a31_FUREUR-DU-DRAGON.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\038f86ac-d68d-4e1e-94c4-5b7f12b00a31_FUREUR-DU-DRAGON.jpg",
       "PackagePath": "staticwebassets\\Images\\038f86ac-d68d-4e1e-94c4-5b7f12b00a31_FUREUR-DU-DRAGON.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\0947d0e4-b654-4748-80c3-d1437cd91097-alphonse.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\0947d0e4-b654-4748-80c3-d1437cd91097-alphonse.jpg",
       "PackagePath": "staticwebassets\\Images\\0947d0e4-b654-4748-80c3-d1437cd91097-alphonse.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\12f544d7-2171-4c75-a72c-4305bebde684-ali.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\09b4f0c4-b83d-4c38-b7d3-70e66cf748bb_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\09b4f0c4-b83d-4c38-b7d3-70e66cf748bb_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\0d86a20d-d78b-4c21-a618-3600df5a05d8_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\0d86a20d-d78b-4c21-a618-3600df5a05d8_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\12f544d7-2171-4c75-a72c-4305bebde684-ali.jpg",
       "PackagePath": "staticwebassets\\Images\\12f544d7-2171-4c75-a72c-4305bebde684-ali.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\2d57636e-d341-411d-97f1-1c1cd49574bc_LastActionHero.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\2d57636e-d341-411d-97f1-1c1cd49574bc_LastActionHero.jpg",
       "PackagePath": "staticwebassets\\Images\\2d57636e-d341-411d-97f1-1c1cd49574bc_LastActionHero.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\4f833dbd-3df1-4890-918f-93416122d5b7_LastActionHero.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\310210e7-5ebd-4aea-9c6e-1ee86644d972_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\310210e7-5ebd-4aea-9c6e-1ee86644d972_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\32a56ca6-3879-4ec2-9554-63492b874d93_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\32a56ca6-3879-4ec2-9554-63492b874d93_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\3522bf62-8f5d-4607-a091-3d3a739fd997_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\3522bf62-8f5d-4607-a091-3d3a739fd997_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\3bc11df9-fb98-4620-8aae-aeab12a7e467_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\3bc11df9-fb98-4620-8aae-aeab12a7e467_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\4f833dbd-3df1-4890-918f-93416122d5b7_LastActionHero.jpg",
       "PackagePath": "staticwebassets\\Images\\4f833dbd-3df1-4890-918f-93416122d5b7_LastActionHero.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\4fc97769-331d-43d9-a875-6a88f6702fe3_reservoirDogs.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\4fc97769-331d-43d9-a875-6a88f6702fe3_reservoirDogs.jpg",
       "PackagePath": "staticwebassets\\Images\\4fc97769-331d-43d9-a875-6a88f6702fe3_reservoirDogs.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\514740bf-3792-4c3f-b8bd-1d56e73f42c4-téléchargement.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\514740bf-3792-4c3f-b8bd-1d56e73f42c4-téléchargement.jpg",
       "PackagePath": "staticwebassets\\Images\\514740bf-3792-4c3f-b8bd-1d56e73f42c4-téléchargement.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\79064e4b-ed12-4ac3-a6d1-7f01a000bb76-téléchargement.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\55ab98db-39f2-4490-b1b0-fd144884149c_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\55ab98db-39f2-4490-b1b0-fd144884149c_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\580f3217-6261-4cd6-8124-76a8330e87e3_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\580f3217-6261-4cd6-8124-76a8330e87e3_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\69a2b56e-a7ff-42bb-8f26-cec669361a95_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\69a2b56e-a7ff-42bb-8f26-cec669361a95_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\6af47cb3-ce40-4e33-a3f1-bca8d9001ee8_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\6af47cb3-ce40-4e33-a3f1-bca8d9001ee8_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\6c50b425-1367-4901-a7a2-5c35e8de7746_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\6c50b425-1367-4901-a7a2-5c35e8de7746_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\79064e4b-ed12-4ac3-a6d1-7f01a000bb76-téléchargement.jpg",
       "PackagePath": "staticwebassets\\Images\\79064e4b-ed12-4ac3-a6d1-7f01a000bb76-téléchargement.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\8d1aacd7-dbee-437f-b922-7cc068fff45a_volAuDessuDunNidDeCoucous.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\8abbd45b-1358-4d26-b0fe-99e1f639dbe9_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\8abbd45b-1358-4d26-b0fe-99e1f639dbe9_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\8d1aacd7-dbee-437f-b922-7cc068fff45a_volAuDessuDunNidDeCoucous.jpg",
       "PackagePath": "staticwebassets\\Images\\8d1aacd7-dbee-437f-b922-7cc068fff45a_volAuDessuDunNidDeCoucous.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\d11c4eb1-c8b8-4106-a50f-38c5e1ad947c-téléchargement.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\93d9a5fc-8503-493c-8106-22a00e572a1e_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\93d9a5fc-8503-493c-8106-22a00e572a1e_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\a6501b36-f54f-45e1-983a-04df62447a55_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\a6501b36-f54f-45e1-983a-04df62447a55_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\c38c7944-2f95-4b4a-bc9b-41a1f3fd75bd_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\c38c7944-2f95-4b4a-bc9b-41a1f3fd75bd_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\c92239bf-1df1-471b-8672-febaaf1d74fd_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\c92239bf-1df1-471b-8672-febaaf1d74fd_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\d11c4eb1-c8b8-4106-a50f-38c5e1ad947c-téléchargement.jpg",
       "PackagePath": "staticwebassets\\Images\\d11c4eb1-c8b8-4106-a50f-38c5e1ad947c-téléchargement.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\db037e12-fa25-4210-a76e-e739e0fa97aa-FUREUR-DU-DRAGON.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\da04e9e5-4218-4b5a-9724-f946119b62e8_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\da04e9e5-4218-4b5a-9724-f946119b62e8_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\db037e12-fa25-4210-a76e-e739e0fa97aa-FUREUR-DU-DRAGON.jpg",
       "PackagePath": "staticwebassets\\Images\\db037e12-fa25-4210-a76e-e739e0fa97aa-FUREUR-DU-DRAGON.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\dc03c2eb-cfbd-4f76-b20f-5324ea724c9f_orande_mecanique.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\dc03c2eb-cfbd-4f76-b20f-5324ea724c9f_orande_mecanique.jpg",
       "PackagePath": "staticwebassets\\Images\\dc03c2eb-cfbd-4f76-b20f-5324ea724c9f_orande_mecanique.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\e016a078-ab13-4f3f-b8cc-9fb50bb82591_LastActionHero.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\dd3d84d0-4602-4c86-9129-c1fb35d00572_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\dd3d84d0-4602-4c86-9129-c1fb35d00572_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\e016a078-ab13-4f3f-b8cc-9fb50bb82591_LastActionHero.jpg",
       "PackagePath": "staticwebassets\\Images\\e016a078-ab13-4f3f-b8cc-9fb50bb82591_LastActionHero.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\fb1b24b7-ce20-4ad3-b9da-b0f33add032e-jean.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\e7f05be9-3d79-41c0-be1a-e55ec56623af_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\e7f05be9-3d79-41c0-be1a-e55ec56623af_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\ea347264-6f1a-4dbd-8840-e7fa0d55461d_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\ea347264-6f1a-4dbd-8840-e7fa0d55461d_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\f1474ef1-7f9c-4174-bc13-ea1eb37beb41_Capture_ecran_1.png",
+      "PackagePath": "staticwebassets\\Images\\f1474ef1-7f9c-4174-bc13-ea1eb37beb41_Capture_ecran_1.png"
+    },
+    {
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\fb1b24b7-ce20-4ad3-b9da-b0f33add032e-jean.jpg",
       "PackagePath": "staticwebassets\\Images\\fb1b24b7-ce20-4ad3-b9da-b0f33add032e-jean.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\noimage.jpg",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\noimage.jpg",
       "PackagePath": "staticwebassets\\Images\\noimage.jpg"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

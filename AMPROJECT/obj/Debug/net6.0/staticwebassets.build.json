@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R2Q1vUw7FnrECSlI8St35XYK9hlgkhb9TQlo0AiQI/E=",
+  "Hash": "kF71Xfm39hlR39JTWZ5qIY+8gpltGRk4h9XOaF0U4gI=",
   "Source": "AMPROJECT",
   "BasePath": "_content/AMPROJECT",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "AMPROJECT\\wwwroot",
       "Source": "AMPROJECT",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\malun\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.12\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AMPROJECT.styles.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AMPROJECT.styles.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "AMPROJECT.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AMPROJECT.styles.css"
+      "OriginalItemSpec": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AMPROJECT.styles.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AMPROJECT.bundle.scp.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AMPROJECT.bundle.scp.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "AMPROJECT.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AMPROJECT.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AMPROJECT.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\css\\site.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\favicon.ico",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\038f86ac-d68d-4e1e-94c4-5b7f12b00a31_FUREUR-DU-DRAGON.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\038f86ac-d68d-4e1e-94c4-5b7f12b00a31_FUREUR-DU-DRAGON.jpg",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/038f86ac-d68d-4e1e-94c4-5b7f12b00a31_FUREUR-DU-DRAGON.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\038f86ac-d68d-4e1e-94c4-5b7f12b00a31_FUREUR-DU-DRAGON.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\0947d0e4-b654-4748-80c3-d1437cd91097-alphonse.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\0947d0e4-b654-4748-80c3-d1437cd91097-alphonse.jpg",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/0947d0e4-b654-4748-80c3-d1437cd91097-alphonse.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,44 @@
       "OriginalItemSpec": "wwwroot\\Images\\0947d0e4-b654-4748-80c3-d1437cd91097-alphonse.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\12f544d7-2171-4c75-a72c-4305bebde684-ali.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\09b4f0c4-b83d-4c38-b7d3-70e66cf748bb_Capture_ecran_1.png",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/09b4f0c4-b83d-4c38-b7d3-70e66cf748bb_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\09b4f0c4-b83d-4c38-b7d3-70e66cf748bb_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\0d86a20d-d78b-4c21-a618-3600df5a05d8_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/0d86a20d-d78b-4c21-a618-3600df5a05d8_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\0d86a20d-d78b-4c21-a618-3600df5a05d8_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\12f544d7-2171-4c75-a72c-4305bebde684-ali.jpg",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/12f544d7-2171-4c75-a72c-4305bebde684-ali.jpg",
       "AssetKind": "All",
@@ -1156,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\12f544d7-2171-4c75-a72c-4305bebde684-ali.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\2d57636e-d341-411d-97f1-1c1cd49574bc_LastActionHero.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\2d57636e-d341-411d-97f1-1c1cd49574bc_LastActionHero.jpg",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/2d57636e-d341-411d-97f1-1c1cd49574bc_LastActionHero.jpg",
       "AssetKind": "All",
@@ -1173,10 +1207,78 @@
       "OriginalItemSpec": "wwwroot\\Images\\2d57636e-d341-411d-97f1-1c1cd49574bc_LastActionHero.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\4f833dbd-3df1-4890-918f-93416122d5b7_LastActionHero.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\310210e7-5ebd-4aea-9c6e-1ee86644d972_Capture_ecran_1.png",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/310210e7-5ebd-4aea-9c6e-1ee86644d972_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\310210e7-5ebd-4aea-9c6e-1ee86644d972_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\32a56ca6-3879-4ec2-9554-63492b874d93_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/32a56ca6-3879-4ec2-9554-63492b874d93_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\32a56ca6-3879-4ec2-9554-63492b874d93_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\3522bf62-8f5d-4607-a091-3d3a739fd997_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/3522bf62-8f5d-4607-a091-3d3a739fd997_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\3522bf62-8f5d-4607-a091-3d3a739fd997_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\3bc11df9-fb98-4620-8aae-aeab12a7e467_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/3bc11df9-fb98-4620-8aae-aeab12a7e467_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\3bc11df9-fb98-4620-8aae-aeab12a7e467_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\4f833dbd-3df1-4890-918f-93416122d5b7_LastActionHero.jpg",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/4f833dbd-3df1-4890-918f-93416122d5b7_LastActionHero.jpg",
       "AssetKind": "All",
@@ -1190,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\4f833dbd-3df1-4890-918f-93416122d5b7_LastActionHero.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\4fc97769-331d-43d9-a875-6a88f6702fe3_reservoirDogs.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\4fc97769-331d-43d9-a875-6a88f6702fe3_reservoirDogs.jpg",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/4fc97769-331d-43d9-a875-6a88f6702fe3_reservoirDogs.jpg",
       "AssetKind": "All",
@@ -1207,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\4fc97769-331d-43d9-a875-6a88f6702fe3_reservoirDogs.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\514740bf-3792-4c3f-b8bd-1d56e73f42c4-téléchargement.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\514740bf-3792-4c3f-b8bd-1d56e73f42c4-téléchargement.jpg",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/514740bf-3792-4c3f-b8bd-1d56e73f42c4-téléchargement.jpg",
       "AssetKind": "All",
@@ -1224,10 +1326,95 @@
       "OriginalItemSpec": "wwwroot\\Images\\514740bf-3792-4c3f-b8bd-1d56e73f42c4-téléchargement.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\79064e4b-ed12-4ac3-a6d1-7f01a000bb76-téléchargement.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\55ab98db-39f2-4490-b1b0-fd144884149c_Capture_ecran_1.png",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/55ab98db-39f2-4490-b1b0-fd144884149c_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\55ab98db-39f2-4490-b1b0-fd144884149c_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\580f3217-6261-4cd6-8124-76a8330e87e3_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/580f3217-6261-4cd6-8124-76a8330e87e3_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\580f3217-6261-4cd6-8124-76a8330e87e3_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\69a2b56e-a7ff-42bb-8f26-cec669361a95_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/69a2b56e-a7ff-42bb-8f26-cec669361a95_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\69a2b56e-a7ff-42bb-8f26-cec669361a95_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\6af47cb3-ce40-4e33-a3f1-bca8d9001ee8_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/6af47cb3-ce40-4e33-a3f1-bca8d9001ee8_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\6af47cb3-ce40-4e33-a3f1-bca8d9001ee8_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\6c50b425-1367-4901-a7a2-5c35e8de7746_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/6c50b425-1367-4901-a7a2-5c35e8de7746_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\6c50b425-1367-4901-a7a2-5c35e8de7746_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\79064e4b-ed12-4ac3-a6d1-7f01a000bb76-téléchargement.jpg",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/79064e4b-ed12-4ac3-a6d1-7f01a000bb76-téléchargement.jpg",
       "AssetKind": "All",
@@ -1241,10 +1428,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\79064e4b-ed12-4ac3-a6d1-7f01a000bb76-téléchargement.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\8d1aacd7-dbee-437f-b922-7cc068fff45a_volAuDessuDunNidDeCoucous.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\8abbd45b-1358-4d26-b0fe-99e1f639dbe9_Capture_ecran_1.png",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/8abbd45b-1358-4d26-b0fe-99e1f639dbe9_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\8abbd45b-1358-4d26-b0fe-99e1f639dbe9_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\8d1aacd7-dbee-437f-b922-7cc068fff45a_volAuDessuDunNidDeCoucous.jpg",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/8d1aacd7-dbee-437f-b922-7cc068fff45a_volAuDessuDunNidDeCoucous.jpg",
       "AssetKind": "All",
@@ -1258,10 +1462,78 @@
       "OriginalItemSpec": "wwwroot\\Images\\8d1aacd7-dbee-437f-b922-7cc068fff45a_volAuDessuDunNidDeCoucous.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\d11c4eb1-c8b8-4106-a50f-38c5e1ad947c-téléchargement.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\93d9a5fc-8503-493c-8106-22a00e572a1e_Capture_ecran_1.png",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/93d9a5fc-8503-493c-8106-22a00e572a1e_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\93d9a5fc-8503-493c-8106-22a00e572a1e_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\a6501b36-f54f-45e1-983a-04df62447a55_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/a6501b36-f54f-45e1-983a-04df62447a55_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\a6501b36-f54f-45e1-983a-04df62447a55_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\c38c7944-2f95-4b4a-bc9b-41a1f3fd75bd_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/c38c7944-2f95-4b4a-bc9b-41a1f3fd75bd_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c38c7944-2f95-4b4a-bc9b-41a1f3fd75bd_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\c92239bf-1df1-471b-8672-febaaf1d74fd_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/c92239bf-1df1-471b-8672-febaaf1d74fd_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c92239bf-1df1-471b-8672-febaaf1d74fd_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\d11c4eb1-c8b8-4106-a50f-38c5e1ad947c-téléchargement.jpg",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/d11c4eb1-c8b8-4106-a50f-38c5e1ad947c-téléchargement.jpg",
       "AssetKind": "All",
@@ -1275,10 +1547,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\d11c4eb1-c8b8-4106-a50f-38c5e1ad947c-téléchargement.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\db037e12-fa25-4210-a76e-e739e0fa97aa-FUREUR-DU-DRAGON.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\da04e9e5-4218-4b5a-9724-f946119b62e8_Capture_ecran_1.png",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/da04e9e5-4218-4b5a-9724-f946119b62e8_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\da04e9e5-4218-4b5a-9724-f946119b62e8_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\db037e12-fa25-4210-a76e-e739e0fa97aa-FUREUR-DU-DRAGON.jpg",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/db037e12-fa25-4210-a76e-e739e0fa97aa-FUREUR-DU-DRAGON.jpg",
       "AssetKind": "All",
@@ -1292,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\db037e12-fa25-4210-a76e-e739e0fa97aa-FUREUR-DU-DRAGON.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\dc03c2eb-cfbd-4f76-b20f-5324ea724c9f_orande_mecanique.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\dc03c2eb-cfbd-4f76-b20f-5324ea724c9f_orande_mecanique.jpg",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/dc03c2eb-cfbd-4f76-b20f-5324ea724c9f_orande_mecanique.jpg",
       "AssetKind": "All",
@@ -1309,10 +1598,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\dc03c2eb-cfbd-4f76-b20f-5324ea724c9f_orande_mecanique.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\e016a078-ab13-4f3f-b8cc-9fb50bb82591_LastActionHero.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\dd3d84d0-4602-4c86-9129-c1fb35d00572_Capture_ecran_1.png",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/dd3d84d0-4602-4c86-9129-c1fb35d00572_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\dd3d84d0-4602-4c86-9129-c1fb35d00572_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\e016a078-ab13-4f3f-b8cc-9fb50bb82591_LastActionHero.jpg",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/e016a078-ab13-4f3f-b8cc-9fb50bb82591_LastActionHero.jpg",
       "AssetKind": "All",
@@ -1326,10 +1632,61 @@
       "OriginalItemSpec": "wwwroot\\Images\\e016a078-ab13-4f3f-b8cc-9fb50bb82591_LastActionHero.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\fb1b24b7-ce20-4ad3-b9da-b0f33add032e-jean.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\e7f05be9-3d79-41c0-be1a-e55ec56623af_Capture_ecran_1.png",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/e7f05be9-3d79-41c0-be1a-e55ec56623af_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\e7f05be9-3d79-41c0-be1a-e55ec56623af_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\ea347264-6f1a-4dbd-8840-e7fa0d55461d_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/ea347264-6f1a-4dbd-8840-e7fa0d55461d_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ea347264-6f1a-4dbd-8840-e7fa0d55461d_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\f1474ef1-7f9c-4174-bc13-ea1eb37beb41_Capture_ecran_1.png",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
+      "BasePath": "_content/AMPROJECT",
+      "RelativePath": "Images/f1474ef1-7f9c-4174-bc13-ea1eb37beb41_Capture_ecran_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f1474ef1-7f9c-4174-bc13-ea1eb37beb41_Capture_ecran_1.png"
+    },
+    {
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\fb1b24b7-ce20-4ad3-b9da-b0f33add032e-jean.jpg",
+      "SourceId": "AMPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/fb1b24b7-ce20-4ad3-b9da-b0f33add032e-jean.jpg",
       "AssetKind": "All",
@@ -1343,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\fb1b24b7-ce20-4ad3-b9da-b0f33add032e-jean.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\Images\\noimage.jpg",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\Images\\noimage.jpg",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "Images/noimage.jpg",
       "AssetKind": "All",
@@ -1360,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\noimage.jpg"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\js\\site.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1377,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1394,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1411,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1428,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1445,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1462,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1479,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1496,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1513,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1530,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1547,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1564,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1581,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1598,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1615,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1632,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1649,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1666,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1683,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1700,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1717,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1734,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1751,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1768,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1785,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1802,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1819,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1836,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1853,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1870,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1887,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1904,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1921,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1938,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1955,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1972,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1989,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2006,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2023,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2040,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2057,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2074,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2091,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2108,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2125,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2142,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2159,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2176,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2193,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2210,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2227,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2244,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2261,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2278,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2295,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2312,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2329,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AMPROJECT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V3\\AMPROJECT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\malun\\Source\\Repos\\AMPROJECT_V4\\AMPROJECT\\wwwroot\\",
       "BasePath": "_content/AMPROJECT",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

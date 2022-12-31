@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AMPROJECT.Data;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AMPROJECT.Models
 {
@@ -6,16 +8,17 @@ namespace AMPROJECT.Models
     {
 
         [Key]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
-        //public int FilmId { get; set; }
-        //[ForeignKey(nameof(FilmId))]
+    
         public Film? Films { get; set; }
+        public Panier? Panier { get; set; }
 
         //public ICollection<Livre> LivrePaniers { get; set; }
         public int? Quantites { get; set; }
 
-
         public string? PanierItemId { get; set; }
+
+
     }
 }
